@@ -18,7 +18,12 @@ $ git clone https://github.com/jiayisheji/admin-angular.git
 ```
 
 ####2.  Make sure you have [bower](http://bower.io/), [grunt-cli](https://www.npmjs.com/package/grunt-cli) and  [npm](https://www.npmjs.org/) installed globally
- 
+
+```sh
+$ sudo npm mirroring cnpm
+$ sudo npm config set strict-ssl false
+$ sudo npm install -g cnpm --registry=http://registry.npm.taobao.org/
+$ sudo cnpm install xxxx  
  
 ```sh
 $ sudo apt-get install npm
