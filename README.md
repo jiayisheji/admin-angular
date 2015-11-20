@@ -6,6 +6,10 @@ This project is a port of the famous Free Admin Bootstrap Theme [屌炸天 管�
 
 Find out more [Free Angular Themes at admin-angular](https://github.com/jiayisheji/admin-angular).
 
+## Precautions
+##### Support Chrome >= 40
+##### angular 1.4.7
+
 ## Installation
 ####1. Clone this project or Download that ZIP file
 
