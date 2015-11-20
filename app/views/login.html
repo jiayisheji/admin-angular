@@ -1,0 +1,30 @@
+<div class="login-page">
+    <div class="img-container">
+        <div class="text-center pull-right photo">
+            <img src="images/flat-avatar.png" class="user-avatar img-circle img-responsive" />
+                <h1>屌炸天<br/ > <span>管理中心</span><br /><small>V1.0.0</small></h1>
+            </div>
+        </div>
+        
+        <div class="form-content">
+            <div class="pro-link">
+                <a href="https://github.com/jiayisheji/admin-angular">进入屌炸天官网</a>
+            </div>
+            <form role="form" name="login" class="bottom-75" ng-submit="submit()" novalidate>
+                <div class="table-form">
+                    <div class="form-groups">
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="请输入用户名" ng-model='user.name' required />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-lg" placeholder="请输入密码" ng-model='user.password' required />
+                        </div>                    
+                    </div>  
+                    <div class="button-container">
+                        <button type="submit" class="btn btn-default login" ng-disabled="login.$invalid"><img src="images/arrow.png" alt=""></button>
+                    </div>
+                </div>       
+            </form>
+        </div>          
+    </div>
+</div>
